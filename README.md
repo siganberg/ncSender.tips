@@ -15,7 +15,7 @@ reuse one: ncSender treats a higher id as "new tip available".
 | `title` | Short headline. |
 | `body` | One or two plain-text paragraphs. Separate paragraphs with a blank line. |
 | `media` | Optional. `{ "type": "video" \| "image", "src": "media/x.mp4", "poster": "media/x.jpg" }`. Paths are relative to `baseUrl`. |
-| `edition` | `all` or `pro`. Pro-only tips get a PRO badge on Community. |
+| `edition` | `all` or `pro`. Pro-only tips get a PRO badge on Community. Core features only: plugin features do not belong here. |
 | `minVersion` | Lowest ncSender version the tip applies to (hidden on older builds). |
 
 Videos: H.264 MP4, no audio, 1280 px wide or less, a few MB at most.
