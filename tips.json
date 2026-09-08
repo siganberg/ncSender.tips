@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "https://raw.githubusercontent.com/siganberg/ncSender.tips/main/",
+  "tips": [
+    {
+      "id": 100,
+      "title": "Pick up where a job left off",
+      "body": "Stopped a job halfway? Use From Line to resume at any line. ncSender replays the modal state (units, work offset, feed, spindle) up to that line so the machine is set up exactly as it would have been.",
+      "media": { "type": "video", "src": "media/start-from-line.mp4", "poster": "media/start-from-line-poster.jpg" },
+      "edition": "all",
+      "minVersion": "2.0.100"
+    },
+    {
+      "id": 101,
+      "title": "Read the toolpath before you cut",
+      "body": "The G-Code Preview colours every move by type and lets you scrub through the program. Click a line in the preview to see where it lands on the visualizer.",
+      "media": { "type": "video", "src": "media/gcode-preview.mp4", "poster": "media/gcode-preview-poster.jpg" },
+      "edition": "all",
+      "minVersion": "2.0.100"
+    },
+    {
+      "id": 102,
+      "title": "Touch-friendly view for the shop tablet",
+      "body": "On a phone or tablet the layout switches to a touch view with bigger targets. Pinch to zoom the visualizer, two-finger drag to pan.",
+      "media": { "type": "video", "src": "media/touch-view.mp4", "poster": "media/touch-view-poster.jpg" },
+      "edition": "all",
+      "minVersion": "2.0.100"
+    },
+    {
+      "id": 103,
+      "title": "Save the park spot with a double-tap",
+      "body": "Double-tap Park and it turns into Save. Tap once more to store the current position as the parking location. Hold Park for one second to drive there.",
+      "edition": "all",
+      "minVersion": "2.0.197"
+    },
+    {
+      "id": 104,
+      "title": "Measure every tool in one go",
+      "body": "With the Pneumatic ATC plugin and the tool-library length strategy, Measure All Tools on the TLS tab loads each tool in turn, probes it on the toolsetter and stores the length. Do it once after loading the rack.",
+      "edition": "pro",
+      "minVersion": "2.0.197"
+    }
+  ]
+}
