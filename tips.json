@@ -15,18 +15,6 @@
       "minVersion": "2.0.100"
     },
     {
-      "id": 101,
-      "title": "Read the toolpath before you cut",
-      "body": "The G-Code Preview colours every move by type and lets you scrub through the program. Click a line in the preview to see where it lands on the visualizer.",
-      "media": {
-        "type": "video",
-        "src": "media/gcode-preview.mp4",
-        "poster": "media/gcode-preview-poster.jpg"
-      },
-      "edition": "all",
-      "minVersion": "2.0.100"
-    },
-    {
       "id": 102,
       "title": "Touch-friendly view for the shop tablet",
       "body": "On a phone or tablet the layout switches to a touch view with bigger targets. Pinch to zoom the visualizer, two-finger drag to pan.",
