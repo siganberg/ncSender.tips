@@ -15,18 +15,6 @@
       "minVersion": "2.0.100"
     },
     {
-      "id": 102,
-      "title": "Touch-friendly view for the shop tablet",
-      "body": "On a phone or tablet the layout switches to a touch view with bigger targets. Pinch to zoom the visualizer, two-finger drag to pan.",
-      "media": {
-        "type": "video",
-        "src": "media/touch-view.mp4",
-        "poster": "media/touch-view-poster.jpg"
-      },
-      "edition": "all",
-      "minVersion": "2.0.100"
-    },
-    {
       "id": 103,
       "title": "Save the park spot with a double-tap",
       "body": "Double-tap Park and it turns into Save. Tap once more to store the current position as the parking location. Hold Park for one second to drive there.",
