@@ -20,6 +20,18 @@
       "body": "Double-tap Park and it turns into Save. Tap once more to store the current position as the parking location. Tap anywhere else, or wait a few seconds, and it goes back to Park without saving.\n\nHold Park for one second to drive to the saved location.",
       "edition": "all",
       "minVersion": "2.0.197"
+    },
+    {
+      "id": 2,
+      "title": "A pulsing Home button means the machine is not homed",
+      "body": "When Home pulses, the controller has not run a homing cycle since it powered on, so it does not yet know where the axes are. Hold Home for one second to home; the pulse stops once every axis has found its switch.\n\nUntil then, moves that depend on a known position, like Go to Zero, stay locked out.",
+      "media": {
+        "type": "video",
+        "src": "media/home-button.mp4",
+        "poster": "media/home-button-poster.jpg"
+      },
+      "edition": "all",
+      "minVersion": "2.0.133"
     }
   ]
 }
