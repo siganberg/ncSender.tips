@@ -43,6 +43,17 @@
         "poster": "media/tool-change-poster.jpg"
       },
       "edition": "all"
+    },
+    {
+      "id": 105,
+      "title": "Right-click the toolpath to transform it",
+      "body": "Right-click the visualizer, or press and hold on a touchscreen, to rotate the job 90°, mirror it on X or Y, or offset the material. Reset to Original puts the file back the way it was loaded.\n\nIn Top view the same menu has Move To, which sends the spindle to the machine coordinates under the cursor.",
+      "media": {
+        "type": "video",
+        "src": "media/transform-menu.mp4",
+        "poster": "media/transform-menu-poster.jpg"
+      },
+      "edition": "all"
     }
   ]
 }
