@@ -32,6 +32,17 @@
       },
       "edition": "all",
       "minVersion": "2.0.133"
+    },
+    {
+      "id": 4,
+      "title": "Hold a slot to load or unload a tool",
+      "body": "In the tool legend, hold a slot button for one second to run a tool change to that tool. If the slot holds the tool already in the spindle, the same hold unloads it instead.\n\nA short tap expands the slot to show the bit assigned to it.",
+      "media": {
+        "type": "video",
+        "src": "media/tool-change.mp4",
+        "poster": "media/tool-change-poster.jpg"
+      },
+      "edition": "all"
     }
   ]
 }
