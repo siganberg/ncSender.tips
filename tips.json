@@ -70,6 +70,17 @@
         "poster": "media/jog-steps-poster.jpg"
       },
       "edition": "all"
+    },
+    {
+      "id": 107,
+      "title": "Open the Terminal in its larger view",
+      "body": "Tap the expand icon in the corner of the Terminal to pop it out full size. The larger view adds a column of one-tap helpers so you do not have to remember the commands: Home, Unlock, Reset, Status Report, Help, controller Information and Settings, and the current Modal State.\n\nIt also lets you run the spindle CW or CCW at a chosen RPM, and stop it, without leaving the terminal.",
+      "media": {
+        "type": "video",
+        "src": "media/terminal-detach.mp4",
+        "poster": "media/terminal-detach-poster.jpg"
+      },
+      "edition": "all"
     }
   ]
 }
