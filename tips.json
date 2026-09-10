@@ -81,6 +81,17 @@
         "poster": "media/terminal-detach-poster.jpg"
       },
       "edition": "all"
+    },
+    {
+      "id": 108,
+      "title": "The G-Code Preview doubles as an editor",
+      "body": "Open the G-Code Preview in its larger view and the file becomes editable. Fix a feed rate, drop a line or tweak a tool call right there, no need to go back to CAM. Find and Replace supports match case, whole word and regular expressions, and can replace one hit or all of them.\n\nCommit Changes writes the file back and reloads it so the visualizer and job info reflect your edit.",
+      "media": {
+        "type": "video",
+        "src": "media/gcode-editor.mp4",
+        "poster": "media/gcode-editor-poster.jpg"
+      },
+      "edition": "all"
     }
   ]
 }
