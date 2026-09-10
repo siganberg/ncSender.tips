@@ -54,6 +54,17 @@
         "poster": "media/transform-menu-poster.jpg"
       },
       "edition": "all"
+    },
+    {
+      "id": 106,
+      "title": "There are more jog steps than the three you see",
+      "body": "Press and hold one of the three Step buttons to open the rest of its group. The 0.1 button hides 0.05 up to 0.9, the 1 button hides 2 to 9, and the 10 button goes all the way to 300.\n\nPick a value and that button jogs by it until you change it again.",
+      "media": {
+        "type": "video",
+        "src": "media/jog-steps.mp4",
+        "poster": "media/jog-steps-poster.jpg"
+      },
+      "edition": "all"
     }
   ]
 }
