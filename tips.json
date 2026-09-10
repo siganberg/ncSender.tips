@@ -58,7 +58,7 @@
     {
       "id": 106,
       "title": "There are more jog steps than the three you see",
-      "body": "Press and hold one of the three Step buttons to open the rest of its group. The 0.1 button hides 0.05 up to 0.9, the 1 button hides 2 to 9, and the 10 button goes all the way to 300.\n\nPick a value and that button jogs by it until you change it again.",
+      "body": "Press and hold one of the three Step buttons to open the rest of its group: fine, medium and coarse. In mm that runs from 0.01 up to 300; in inches from 0.001 up to 10, with common fractions like 1/64, 1/32, 1/16, 1/8 and 1/4 built in.\n\nPick a value and that button jogs by it until you change it again.",
       "media": {
         "type": "video",
         "src": "media/jog-steps.mp4",
