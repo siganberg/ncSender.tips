@@ -19,7 +19,12 @@
       "title": "Save the park spot with a double-tap",
       "body": "Double-tap Park and it turns into Save. Tap once more to store the current position as the parking location. Tap anywhere else, or wait a few seconds, and it goes back to Park without saving.\n\nHold Park for one second to drive to the saved location.",
       "edition": "all",
-      "minVersion": "2.0.197"
+      "minVersion": "2.0.134",
+      "media": {
+        "type": "video",
+        "src": "media/park-save.mp4",
+        "poster": "media/park-save-poster.jpg"
+      }
     },
     {
       "id": 2,
