@@ -17,6 +17,10 @@
         "de": {
           "title": "Einen Auftrag dort fortsetzen, wo er stoppte",
           "body": "Auftrag mittendrin gestoppt? Mit „Ab Zeile“ setzen Sie an einer beliebigen Zeile fort. ncSender stellt den modalen Zustand (Einheiten, Nullpunkt, Vorschub, Spindel) bis zu dieser Zeile wieder her, sodass die Maschine genau so eingerichtet ist, wie sie es gewesen wäre."
+        },
+        "fr": {
+          "title": "Reprendre un travail là où il s'est arrêté",
+          "body": "Un travail interrompu à mi-parcours ? Utilisez « Depuis ligne » pour reprendre à n'importe quelle ligne. ncSender rejoue l'état modal (unités, décalage d'origine, avance, broche) jusqu'à cette ligne, pour que la machine soit configurée exactement comme elle l'aurait été."
         }
       }
     },
@@ -35,6 +39,10 @@
         "de": {
           "title": "Parkposition per Doppeltippen sichern",
           "body": "Tippen Sie doppelt auf „Parken“, dann wird daraus „Sichern“. Tippen Sie noch einmal, um die aktuelle Position als Parkposition zu speichern. Tippen Sie woanders hin oder warten Sie ein paar Sekunden, dann steht dort wieder „Parken“, ohne zu speichern.\n\nHalten Sie „Parken“ eine Sekunde lang gedrückt, um zur gespeicherten Position zu fahren."
+        },
+        "fr": {
+          "title": "Enregistrer la position de parking d'un double-appui",
+          "body": "Appuyez deux fois sur « Parking » et le bouton devient « Enreg. ». Appuyez encore une fois pour mémoriser la position actuelle comme position de parking. Appuyez ailleurs, ou attendez quelques secondes, et il redevient « Parking » sans rien enregistrer.\n\nMaintenez « Parking » une seconde pour rejoindre la position enregistrée."
         }
       }
     },
@@ -53,6 +61,10 @@
         "de": {
           "title": "Ein pulsierender Referenz-Knopf heißt: Maschine nicht referenziert",
           "body": "Pulsiert „Referenz“, hat die Steuerung seit dem Einschalten keine Referenzfahrt ausgeführt und weiß noch nicht, wo die Achsen stehen. Halten Sie „Referenz“ eine Sekunde lang gedrückt; das Pulsieren endet, sobald jede Achse ihren Schalter gefunden hat.\n\nBis dahin bleiben Bewegungen gesperrt, die eine bekannte Position brauchen, etwa das Anfahren des Nullpunkts."
+        },
+        "fr": {
+          "title": "Un bouton « Origine » qui clignote : origine non faite",
+          "body": "Quand « Origine » clignote, le contrôleur n'a pas fait de prise d'origine depuis sa mise sous tension : il ne sait donc pas encore où se trouvent les axes. Maintenez « Origine » une seconde pour lancer la prise d'origine ; le clignotement s'arrête dès que chaque axe a trouvé son capteur.\n\nD'ici là, les déplacements qui ont besoin d'une position connue, comme le retour au zéro, restent bloqués."
         }
       }
     },
@@ -70,6 +82,10 @@
         "de": {
           "title": "Slot halten, um ein Werkzeug zu laden oder zu entladen",
           "body": "Halten Sie in der Werkzeugleiste einen Slot-Knopf eine Sekunde lang gedrückt, um einen Werkzeugwechsel zu diesem Werkzeug auszuführen. Steckt das Werkzeug dieses Slots bereits in der Spindel, entlädt dasselbe Halten es stattdessen.\n\nKurzes Tippen klappt den Slot auf und zeigt den zugeordneten Fräser."
+        },
+        "fr": {
+          "title": "Maintenir un emplacement pour charger ou décharger un outil",
+          "body": "Dans la légende des outils, maintenez le bouton d'un emplacement une seconde pour lancer un changement d'outil vers cet outil. Si l'emplacement contient l'outil déjà dans la broche, ce même appui long le décharge.\n\nUn appui bref déplie l'emplacement pour afficher la fraise qui lui est attribuée."
         }
       }
     },
@@ -87,6 +103,10 @@
         "de": {
           "title": "Werkzeugweg per Rechtsklick transformieren",
           "body": "Klicken Sie mit der rechten Maustaste in die Ansicht oder halten Sie auf einem Touchscreen gedrückt, um den Auftrag um 90° zu drehen, an X oder Y zu spiegeln oder das Material zu versetzen. „Zurücksetzen“ stellt die Datei so wieder her, wie sie geladen wurde.\n\nIn der Ansicht „Oben“ enthält dasselbe Menü „Anfahren“: Die Spindel fährt zu den Maschinenkoordinaten unter dem Mauszeiger."
+        },
+        "fr": {
+          "title": "Clic droit sur le parcours d'outil pour le transformer",
+          "body": "Faites un clic droit dans le visualiseur, ou maintenez le doigt appuyé sur un écran tactile, pour faire pivoter le travail de 90°, le mettre en miroir sur X ou Y, ou décaler la matière. « Revenir à l'original » remet le fichier tel qu'il a été chargé.\n\nEn vue « Dessus », le même menu propose « Aller à », qui envoie la broche aux coordonnées machine situées sous le curseur."
         }
       }
     },
@@ -104,6 +124,10 @@
         "de": {
           "title": "Es gibt mehr Jog-Schritte als die drei sichtbaren",
           "body": "Halten Sie einen der drei Schritt-Knöpfe gedrückt, um den Rest seiner Gruppe zu öffnen: fein, mittel und grob. In mm reicht das von 0,01 bis 300, in Zoll von 0,001 bis 10, mit gängigen Brüchen wie 1/64, 1/32, 1/16, 1/8 und 1/4.\n\nWählen Sie einen Wert, und dieser Knopf joggt damit, bis Sie ihn wieder ändern."
+        },
+        "fr": {
+          "title": "Il y a plus de pas de jog que les trois affichés",
+          "body": "Maintenez l'un des trois boutons « Pas » pour ouvrir le reste de son groupe : fin, moyen et grossier. En mm, les valeurs vont de 0,01 à 300 ; en pouces, de 0,001 à 10, avec les fractions courantes comme 1/64, 1/32, 1/16, 1/8 et 1/4 déjà incluses.\n\nChoisissez une valeur : ce bouton déplacera la machine de ce pas jusqu'à ce que vous en changiez."
         }
       }
     },
@@ -121,6 +145,10 @@
         "de": {
           "title": "Das Terminal in der großen Ansicht öffnen",
           "body": "Tippen Sie auf das Vergrößern-Symbol in der Ecke des Terminals, um es in voller Größe zu öffnen. Die große Ansicht bietet eine Spalte mit Befehlen per Fingertipp, damit Sie sich nichts merken müssen: Referenzfahrt, Entsperren, Reset, Statusbericht, Hilfe, Informationen und Einstellungen der Steuerung sowie den aktuellen modalen Zustand.\n\nAußerdem können Sie die Spindel mit gewählter Drehzahl im oder gegen den Uhrzeigersinn laufen lassen und stoppen, ohne das Terminal zu verlassen."
+        },
+        "fr": {
+          "title": "Ouvrir le terminal en grand format",
+          "body": "Appuyez sur l'icône d'agrandissement dans le coin du « Terminal » pour l'afficher en grand format. La grande vue ajoute une colonne de raccourcis en un appui, pour ne pas avoir à retenir les commandes : « Origine », « Déverrouiller », « Reset », « Rapport d'état », « Aide », « Infos » et « Param. contrôleur », ainsi que l'« État modal » actuel.\n\nElle permet aussi de faire tourner la broche en sens horaire (CW) ou antihoraire (CCW) à la vitesse choisie, puis de l'arrêter, sans quitter le terminal."
         }
       }
     },
@@ -138,6 +166,10 @@
         "de": {
           "title": "Die G-Code-Vorschau ist auch ein Editor",
           "body": "Öffnen Sie die G-Code-Vorschau in der großen Ansicht, dann lässt sich die Datei bearbeiten. Korrigieren Sie einen Vorschub, löschen Sie eine Zeile oder passen Sie einen Werkzeugaufruf direkt an, ohne zurück ins CAM zu gehen. Suchen und Ersetzen unterstützt Groß-/Kleinschreibung, ganze Wörter und reguläre Ausdrücke und ersetzt einen oder alle Treffer.\n\n„Übernehmen“ speichert die Datei und lädt sie neu, sodass Ansicht und Auftragsinfo Ihre Änderung zeigen."
+        },
+        "fr": {
+          "title": "L'aperçu G-code sert aussi d'éditeur",
+          "body": "Ouvrez l'aperçu G-code en grande vue et le fichier devient modifiable. Corrigez une avance, supprimez une ligne ou ajustez un appel d'outil directement, sans repasser par la FAO. « Rechercher et remplacer » gère la casse, le mot entier et les expressions régulières, et peut remplacer une occurrence ou toutes.\n\n« Valider les modifications » réécrit le fichier et le recharge, pour que le visualiseur et les infos travail reflètent vos changements."
         }
       }
     }
