@@ -17,6 +17,7 @@ reuse one: ncSender treats a higher id as "new tip available".
 | `media` | Optional. `{ "type": "video" \| "image", "src": "media/x.mp4", "poster": "media/x.jpg" }`. Paths are relative to `baseUrl`. |
 | `edition` | `all` or `pro`. Pro-only tips get a PRO badge on Community. Core features only: plugin features do not belong here. |
 | `minVersion` | Lowest ncSender version the tip applies to (hidden on older builds). |
+| `translations` | Optional. Title and body per UI language, keyed by language id: `{ "de": { "title": "…", "body": "…" } }`. ncSender Pro shows the version matching the chosen language and falls back to `title`/`body`. Older builds ignore it. |
 
 Videos: H.264 MP4, no audio, 1280 px wide or less, a few MB at most.
 Give each one a JPEG poster so the card has something to show while the

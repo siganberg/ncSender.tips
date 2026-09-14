@@ -12,7 +12,13 @@
         "poster": "media/start-from-line-poster.jpg"
       },
       "edition": "all",
-      "minVersion": "2.0.100"
+      "minVersion": "2.0.100",
+      "translations": {
+        "de": {
+          "title": "Einen Auftrag dort fortsetzen, wo er stoppte",
+          "body": "Auftrag mittendrin gestoppt? Mit „Ab Zeile“ setzen Sie an einer beliebigen Zeile fort. ncSender stellt den modalen Zustand (Einheiten, Nullpunkt, Vorschub, Spindel) bis zu dieser Zeile wieder her, sodass die Maschine genau so eingerichtet ist, wie sie es gewesen wäre."
+        }
+      }
     },
     {
       "id": 103,
@@ -24,6 +30,12 @@
         "type": "video",
         "src": "media/park-save.mp4",
         "poster": "media/park-save-poster.jpg"
+      },
+      "translations": {
+        "de": {
+          "title": "Parkposition per Doppeltippen sichern",
+          "body": "Tippen Sie doppelt auf „Parken“, dann wird daraus „Sichern“. Tippen Sie noch einmal, um die aktuelle Position als Parkposition zu speichern. Tippen Sie woanders hin oder warten Sie ein paar Sekunden, dann steht dort wieder „Parken“, ohne zu speichern.\n\nHalten Sie „Parken“ eine Sekunde lang gedrückt, um zur gespeicherten Position zu fahren."
+        }
       }
     },
     {
@@ -36,7 +48,13 @@
         "poster": "media/home-button-poster.jpg"
       },
       "edition": "all",
-      "minVersion": "2.0.133"
+      "minVersion": "2.0.133",
+      "translations": {
+        "de": {
+          "title": "Ein pulsierender Referenz-Knopf heißt: Maschine nicht referenziert",
+          "body": "Pulsiert „Referenz“, hat die Steuerung seit dem Einschalten keine Referenzfahrt ausgeführt und weiß noch nicht, wo die Achsen stehen. Halten Sie „Referenz“ eine Sekunde lang gedrückt; das Pulsieren endet, sobald jede Achse ihren Schalter gefunden hat.\n\nBis dahin bleiben Bewegungen gesperrt, die eine bekannte Position brauchen, etwa das Anfahren des Nullpunkts."
+        }
+      }
     },
     {
       "id": 4,
@@ -47,7 +65,13 @@
         "src": "media/tool-change.mp4",
         "poster": "media/tool-change-poster.jpg"
       },
-      "edition": "all"
+      "edition": "all",
+      "translations": {
+        "de": {
+          "title": "Slot halten, um ein Werkzeug zu laden oder zu entladen",
+          "body": "Halten Sie in der Werkzeugleiste einen Slot-Knopf eine Sekunde lang gedrückt, um einen Werkzeugwechsel zu diesem Werkzeug auszuführen. Steckt das Werkzeug dieses Slots bereits in der Spindel, entlädt dasselbe Halten es stattdessen.\n\nKurzes Tippen klappt den Slot auf und zeigt den zugeordneten Fräser."
+        }
+      }
     },
     {
       "id": 105,
@@ -58,7 +82,13 @@
         "src": "media/transform-menu.mp4",
         "poster": "media/transform-menu-poster.jpg"
       },
-      "edition": "all"
+      "edition": "all",
+      "translations": {
+        "de": {
+          "title": "Werkzeugweg per Rechtsklick transformieren",
+          "body": "Klicken Sie mit der rechten Maustaste in die Ansicht oder halten Sie auf einem Touchscreen gedrückt, um den Auftrag um 90° zu drehen, an X oder Y zu spiegeln oder das Material zu versetzen. „Zurücksetzen“ stellt die Datei so wieder her, wie sie geladen wurde.\n\nIn der Ansicht „Oben“ enthält dasselbe Menü „Anfahren“: Die Spindel fährt zu den Maschinenkoordinaten unter dem Mauszeiger."
+        }
+      }
     },
     {
       "id": 106,
@@ -69,7 +99,13 @@
         "src": "media/jog-steps.mp4",
         "poster": "media/jog-steps-poster.jpg"
       },
-      "edition": "all"
+      "edition": "all",
+      "translations": {
+        "de": {
+          "title": "Es gibt mehr Jog-Schritte als die drei sichtbaren",
+          "body": "Halten Sie einen der drei Schritt-Knöpfe gedrückt, um den Rest seiner Gruppe zu öffnen: fein, mittel und grob. In mm reicht das von 0,01 bis 300, in Zoll von 0,001 bis 10, mit gängigen Brüchen wie 1/64, 1/32, 1/16, 1/8 und 1/4.\n\nWählen Sie einen Wert, und dieser Knopf joggt damit, bis Sie ihn wieder ändern."
+        }
+      }
     },
     {
       "id": 107,
@@ -80,7 +116,13 @@
         "src": "media/terminal-detach.mp4",
         "poster": "media/terminal-detach-poster.jpg"
       },
-      "edition": "all"
+      "edition": "all",
+      "translations": {
+        "de": {
+          "title": "Das Terminal in der großen Ansicht öffnen",
+          "body": "Tippen Sie auf das Vergrößern-Symbol in der Ecke des Terminals, um es in voller Größe zu öffnen. Die große Ansicht bietet eine Spalte mit Befehlen per Fingertipp, damit Sie sich nichts merken müssen: Referenzfahrt, Entsperren, Reset, Statusbericht, Hilfe, Informationen und Einstellungen der Steuerung sowie den aktuellen modalen Zustand.\n\nAußerdem können Sie die Spindel mit gewählter Drehzahl im oder gegen den Uhrzeigersinn laufen lassen und stoppen, ohne das Terminal zu verlassen."
+        }
+      }
     },
     {
       "id": 108,
@@ -91,7 +133,13 @@
         "src": "media/gcode-editor.mp4",
         "poster": "media/gcode-editor-poster.jpg"
       },
-      "edition": "all"
+      "edition": "all",
+      "translations": {
+        "de": {
+          "title": "Die G-Code-Vorschau ist auch ein Editor",
+          "body": "Öffnen Sie die G-Code-Vorschau in der großen Ansicht, dann lässt sich die Datei bearbeiten. Korrigieren Sie einen Vorschub, löschen Sie eine Zeile oder passen Sie einen Werkzeugaufruf direkt an, ohne zurück ins CAM zu gehen. Suchen und Ersetzen unterstützt Groß-/Kleinschreibung, ganze Wörter und reguläre Ausdrücke und ersetzt einen oder alle Treffer.\n\n„Übernehmen“ speichert die Datei und lädt sie neu, sodass Ansicht und Auftragsinfo Ihre Änderung zeigen."
+        }
+      }
     }
   ]
 }
