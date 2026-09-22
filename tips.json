@@ -25,6 +25,10 @@
         "es": {
           "title": "Retome un trabajo donde se quedó",
           "body": "¿Detuvo un trabajo a mitad de camino? Use “Desde línea” para reanudarlo en cualquier línea. ncSender reproduce el estado modal (unidades, desplazamiento de origen, avance, husillo) hasta esa línea, de modo que la máquina quede configurada exactamente como habría estado."
+        },
+        "ru": {
+          "title": "Продолжите задание с того места, где оно остановилось",
+          "body": "Остановили задание на середине? С помощью «От строки» можно продолжить с любой строки. ncSender воспроизводит модальное состояние (единицы, рабочее смещение, подачу, шпиндель) до этой строки, поэтому станок будет настроен ровно так, как если бы задание шло с самого начала."
         }
       }
     },
@@ -51,6 +55,10 @@
         "es": {
           "title": "Guarde la posición de estacionamiento con un doble toque",
           "body": "Toque dos veces “Estac.” y el botón cambia a “Guardar”. Tóquelo una vez más para guardar la posición actual como posición de estacionamiento. Si toca en cualquier otro lugar o espera unos segundos, vuelve a “Estac.” sin guardar.\n\nMantenga pulsado “Estac.” durante un segundo para ir a la posición guardada."
+        },
+        "ru": {
+          "title": "Сохраните место парковки двойным нажатием",
+          "body": "Дважды нажмите «Парковка» — и кнопка превратится в «Сохранить». Нажмите её ещё раз, чтобы запомнить текущую позицию как место парковки. Нажмите в другом месте или подождите пару секунд — вернётся «Парковка», и ничего не сохранится.\n\nУдерживайте «Парковка» одну секунду, чтобы перейти к сохранённой позиции."
         }
       }
     },
@@ -77,6 +85,10 @@
         "es": {
           "title": "Un botón “Origen” que parpadea indica que la máquina no tiene origen",
           "body": "Cuando “Origen” parpadea, el controlador no ha ejecutado una búsqueda de origen desde que se encendió, así que aún no sabe dónde están los ejes. Mantenga pulsado “Origen” durante un segundo para buscar el origen; el parpadeo se detiene cuando todos los ejes han encontrado su interruptor.\n\nHasta entonces, los movimientos que dependen de una posición conocida, como ir al cero, permanecen bloqueados."
+        },
+        "ru": {
+          "title": "Пульсирующая кнопка «Дом» — базирование не выполнено",
+          "body": "Когда «Дом» пульсирует, контроллер с момента включения ещё не выполнял базирование и не знает, где находятся оси. Удерживайте «Дом» одну секунду, чтобы выполнить базирование; пульсация прекратится, как только каждая ось найдёт свой концевик.\n\nДо этого перемещения, которым нужна известная позиция (например, переход к нулю), остаются заблокированными."
         }
       }
     },
@@ -102,6 +114,10 @@
         "es": {
           "title": "Mantenga pulsada una posición para cargar o descargar una herramienta",
           "body": "En la leyenda de herramientas, mantenga pulsado un botón “Slot” durante un segundo para ejecutar un cambio a esa herramienta. Si la posición contiene la herramienta que ya está en el husillo, esa misma pulsación la descarga.\n\nUn toque breve despliega la posición y muestra la fresa asignada."
+        },
+        "ru": {
+          "title": "Удерживайте гнездо, чтобы загрузить или выгрузить инструмент",
+          "body": "В легенде инструментов удерживайте кнопку «Гнездо» одну секунду — начнётся смена на этот инструмент. Если в гнезде числится инструмент, который уже стоит в шпинделе, то же самое удержание, наоборот, выгрузит его.\n\nКороткое нажатие разворачивает гнездо и показывает назначенную ему фрезу."
         }
       }
     },
@@ -127,6 +143,10 @@
         "es": {
           "title": "Haga clic derecho en la trayectoria para transformarla",
           "body": "Haga clic derecho en el visualizador, o mantenga pulsado en una pantalla táctil, para girar el trabajo 90°, reflejarlo en X o Y, o desplazar el material. “Restablecer original” devuelve el archivo al estado en que se cargó.\n\nEn la vista “Arriba”, el mismo menú incluye “Mover a”, que envía el husillo a las coordenadas de máquina situadas bajo el cursor."
+        },
+        "ru": {
+          "title": "Преобразуйте траекторию правым кликом",
+          "body": "Щёлкните правой кнопкой в визуализаторе или нажмите и удерживайте на сенсорном экране, чтобы повернуть задание на 90°, отразить его по X или Y либо сместить материал. «Вернуть к оригиналу» возвращает файл в том виде, в каком он был загружен.\n\nВ виде «Сверху» в том же меню есть «Перейти к»: шпиндель поедет в машинные координаты под курсором."
         }
       }
     },
@@ -152,6 +172,10 @@
         "es": {
           "title": "Hay más pasos de jog que los tres que ve",
           "body": "Mantenga pulsado uno de los tres botones “Paso” para abrir el resto de su grupo: fino, medio y grueso. En mm van de 0.01 a 300; en pulgadas, de 0.001 a 10, con fracciones habituales como 1/64, 1/32, 1/16, 1/8 y 1/4 ya incluidas.\n\nElija un valor y ese botón moverá la máquina con ese paso hasta que lo vuelva a cambiar."
+        },
+        "ru": {
+          "title": "Шагов перемещения больше, чем три видимые",
+          "body": "Нажмите и удерживайте одну из трёх кнопок «Шаг», чтобы открыть остальную группу: мелкие, средние и крупные значения. В mm это от 0.01 до 300, в дюймах — от 0.001 до 10, с привычными дробями 1/64, 1/32, 1/16, 1/8 и 1/4.\n\nВыберите значение — и эта кнопка будет перемещать станок с таким шагом, пока вы не смените его снова."
         }
       }
     },
@@ -177,6 +201,10 @@
         "es": {
           "title": "Abra el Terminal en su vista ampliada",
           "body": "Toque el icono de ampliar en la esquina del “Terminal” para mostrarlo a tamaño completo. La vista ampliada añade una columna de accesos rápidos de un solo toque para que no tenga que recordar los comandos: “Origen”, “Desbloquear”, “Reset”, “Informe de estado”, “Ayuda”, “Información” y “Ajustes controlador”, además del “Estado modal” actual.\n\nTambién le permite hacer girar el husillo en sentido horario (CW) o antihorario (CCW) a las rpm elegidas, y detenerlo, sin salir del terminal."
+        },
+        "ru": {
+          "title": "Откройте «Терминал» в увеличенном виде",
+          "body": "Нажмите значок разворота в углу «Терминала», чтобы открыть его на весь экран. В увеличенном виде добавляется столбец кнопок в одно нажатие, чтобы не запоминать команды: «Дом», «Разблок.», «Сброс», «Состояние», «Справка», «Сведения» и «Настр. контроллера», а также текущее «Модал. состояние».\n\nОттуда же можно запустить шпиндель по часовой (CW) или против часовой (CCW) на выбранных оборотах и остановить его, не выходя из терминала."
         }
       }
     },
@@ -202,6 +230,10 @@
         "es": {
           "title": "La vista previa de G-code también sirve de editor",
           "body": "Abra la “Vista previa” en su vista ampliada y el archivo pasa a ser editable. Corrija un avance, elimine una línea o ajuste una llamada de herramienta ahí mismo, sin volver al CAM. “Buscar” y “Reemplazar” admiten distinguir mayúsculas, palabra completa y expresiones regulares, y pueden reemplazar una coincidencia o todas.\n\n“Aplicar cambios” guarda el archivo y lo vuelve a cargar para que el visualizador y la información del trabajo reflejen su edición."
+        },
+        "ru": {
+          "title": "Просмотр G-кода — это ещё и редактор",
+          "body": "Откройте «Просмотр» в увеличенном виде — и файл станет редактируемым. Поправьте подачу, удалите строку или измените вызов инструмента прямо здесь, не возвращаясь в CAM. «Поиск» и «Замена» умеют учитывать регистр, искать слово целиком и работать с регулярными выражениями, а заменить можно одно совпадение или все сразу.\n\n«Применить изменения» записывает файл обратно и перезагружает его, чтобы визуализатор и «О задании» отражали вашу правку."
         }
       }
     }
